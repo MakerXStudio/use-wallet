@@ -28,6 +28,9 @@
     "pre-release": "yarn lint && yarn format && yarn check-types && yarn test && yarn build",
     "release": "release-it"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "txnlab",
   "license": "MIT",
   "devDependencies": {
